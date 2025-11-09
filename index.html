@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <main>
+        <section class="container">
+            <div class="left-col">
+                <div class="overlay">
+                    <img src="img/odin-lined.png" class="logo"  alt="The Odin Project Logo">
+                    <span>Odin</span>
+                </div>
+                <div class="caption-container">
+                    <figcaption class="caption">Photo by <a href="https://unsplash.com/@zacong?
+                                utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Zac Ong</a> on <a 
+                                href="https://unsplash.com/photos/black-yellow-and-green-abstract-painting-V3j7yy3CzqU?
+                                utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+                    </figcaption>
+                </div>
+            </div>
+            <div class="right-col">
+                <div class="text-container">
+                    <p class="lead">
+                    This is not a real online service! You know you need something like
+                    this in your life to help you realize your deepest dreams. Sign up
+                    <em style="color: red;">Now</em> to get started.
+                    </p>
+                    <p class="lead">You <em style="color: red;">know</em> you want to.</p>
+                </div>
+                <form class="form shadow" action="" method="post">
+                    <h2>Let's do this!</h2>
+                    <!-- names -->
+                    <div class="row">
+                        <div class="input-container">
+                            <label class="form-label" for="name" aria-required="true">first Name</label>
+                            <input type="text" class="form-control" name="name" id="name">
+                        </div>
+                        <div class="input-container">
+                            <label class="form-label" for="surname" aria-required="true">Last Name</label>
+                            <input type="text" class="form-control" name="surname" id="surname">
+                        </div>
+                    </div>
+                    <!-- contact -->
+                    <div class="row">
+                        <div class="input-container">
+                            <label class="form-label" for="email" aria-required="true">email</label>
+                            <input type="email" class="form-control" name="email" id="email">
+                        </div>
+                        <div class="input-container">
+                            <label class="form-label" for="phone" aria-required="true">Phone number</label>
+                            <input type="tel" class="form-control" name="phone" id="phone">
+                        </div>
+                    </div>
+                    <!-- password -->
+                    <div class="row">
+                        <div class="input-container">
+                            <label class="form-label" for="password" aria-required="true">password</label>
+                            <input type="password" class="form-control" name="password" id="password" required>
+                        </div>
+                        <div class="input-container">
+                            <label class="form-label" for="confirm" aria-required="true">confirm password</label>
+                            <input type="password" class="form-control" name="confirm" id="confirm" required>
+                        </div>
+                    </div>
+                
+                </form>
+                <div class="btn-container">
+                    <button class="btn shadow" type="submit">Create account</button>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>
